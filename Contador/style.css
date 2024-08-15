@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+    height: 98vh;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 50px;
+    background: linear-gradient(to left, #e66465, #9198e5);
+}
+
+#contadorLabel {
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.botao{
+    width: 100px;
+    height: 70px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: lightblue;
+    color: black;
+}
